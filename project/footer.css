@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("nnn.jpg");
+    background-size: cover;
+}
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top:  40px;
+    color: #fff;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    }
+    ul li{
+        display: inline-block;
+        align-items: center;
+    }
+    ul li img{
+        width: 50px;
+    }
+
+    table,th, td{
+        
+  font-size:20px ;
+  font-family: cursive;
+ 
+  
+}
+.table{
+    margin  : 0px 5px 200px ;
+    
+}
+.i{
+    font-family: fantasy;
+    font-size: 50px;
+    color:white;
+}
+th,td{
+    color: white;
+}
+td ,th{
+    border-bottom: rgb(50, 126, 50) 1px solid;
+}
+th{
+    border-bottom: double rgb(50, 126, 50) 6px;
+}
+
+
