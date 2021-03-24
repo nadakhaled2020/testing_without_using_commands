@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: "Roboto", sans-serif;
+}
+
+
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 100vh;
+}
+
+header {
+    width:auto ;
+    overflow:auto;
+    margin-top:2% ;
+
+}
+.logo {
+    float:left ;
+
+}
+.logo h2 {
+    color: #fff;
+    margin-left: 20px;
+
+}
+.container{
+    max-width: 1800px;
+}
+nav {
+float:right ;
+}
+nav ul {
+    width: auto ;
+    overflow: auto;
+    
+
+}
+nav ul li  {
+   display:inline-block;
+    list-style: none;
+    padding: 5px 15px;
+
+}
+nav ul li a {
+    text-decoration:none ;
+    color: #fff ;
+    font-size: 30px;
+   
+}
+
+
+nav ul .active {
+    border:1px solid #fff ;
+
+}
+nav ul li:hover{
+    border:1px solid #fff ;
+
+}
+.text {
+    margin-top: 18% ;
+}
+.text h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 150px;
+    font-family: fantasy;
+}
